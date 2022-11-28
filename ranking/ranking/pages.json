@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "geng-app"
+			}
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#151515",
+		"backgroundColor": "#151515",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83", // tab 上的文字默认颜色
+		"selectedColor": "#ffffff", // tab 上的文字选中时的颜色
+		"borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white
+		"backgroundColor": "#212121", // tab 的背景色
+		"list": [{ // 最少2个、最多5个 tab
+			"pagePath": "pages/index/index", // 页面路径，必须在 pages 中先定义
+			"iconPath": "static/home.png", // 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px
+			"selectedIconPath": "static/home_s.png", // 选中时的图片路径
+			"text": "Home" // tab 上按钮文字
+		}, {
+			"pagePath": "pages/setting/setting",
+			"iconPath": "static/setting.png",
+			"selectedIconPath": "static/setting_s.png",
+			"text": "Setting"
+		}],
+		"height":"70px",
+		"fontSize":"14rpx"
+	}
+}

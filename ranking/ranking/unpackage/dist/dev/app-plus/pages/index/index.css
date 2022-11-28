@@ -1,0 +1,321 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.dark_mode {
+  background-color: #151515;
+}
+.dark_mode .page {
+  background-color: #151515;
+}
+.dark_mode .text {
+  background-image: radial-gradient(ellipse 87.25% 497.63% at 95.36% 14.36%, #ffcf14 0%, #ee8fff 55.86%, #38deff 100%);
+}
+.dark_mode .section_2 {
+  background-color: #212121;
+}
+.dark_mode uni-view.text-wrapper {
+  background-image: radial-gradient(ellipse 89.84% 298.54% at 95.36% 14.36%, #ffd840 0%, #f3acff 55.86%, #8aecff 100%);
+  color: #000000;
+}
+.dark_mode .font_1 {
+  color: #ffffff;
+}
+.dark_mode .text_2 {
+  color: #000000;
+}
+.dark_mode .section_3 {
+  background-color: #212121;
+}
+.dark_mode .list-item {
+  border-bottom: solid 0.0625rem #2c2c2c;
+}
+.dark_mode .font_2 {
+  color: #ffffff;
+}
+.dark_mode .font_3 {
+  color: #ffffff;
+}
+.dark_mode .font_4 {
+  color: #8e8e93;
+}
+.light_mode .page {
+  background-color: #ffffff;
+}
+.light_mode .text {
+  background-image: radial-gradient(ellipse 87.25% 497.63% at 95.36% 14.36%, #ffcf14 0%, #ee8fff 55.86%, #38deff 100%);
+}
+.light_mode .section_2 {
+  background-color: #f8f8f9;
+}
+.light_mode uni-view.text-wrapper {
+  background-image: radial-gradient(ellipse 89.84% 298.54% at 95.36% 14.36%, #ffd840 0%, #f3acff 55.86%, #8aecff 100%);
+  color: #ffffff;
+}
+.light_mode .font_1 {
+  color: #000000;
+}
+.light_mode .text_2 {
+  color: #ffffff;
+}
+.light_mode .section_3 {
+  background-color: #f8f8f9;
+}
+.light_mode .list-item {
+  border-bottom: solid 0.0625rem #ebebeb;
+}
+.light_mode .font_2 {
+  color: #000000;
+}
+.light_mode .font_3 {
+  color: #000000;
+}
+.light_mode .font_4 {
+  color: #8e8e93;
+}
+body {
+  background-color: #151515;
+}
+.iconSize {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.625rem 0.625rem 0 0.625rem;
+}
+.nvidia {
+  background: #4caf50;
+}
+.amd {
+  background: #e3163d;
+}
+.intel {
+  background: #0072bb;
+}
+.popup-show {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/* mask */
+.uni-input {
+  color: #ffffff;
+  padding-left: 0.625rem;
+  font-size: 1.1875rem;
+  line-height: 0.625rem;
+}
+.masksearch {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1.5625rem;
+  overflow: hidden;
+}
+.section_7 {
+  margin: 0 1.25rem;
+  padding: 2.3125rem 1.5625rem 2rem 2rem;
+  background-color: #212121;
+  box-shadow: 0px 1.25rem 1.875rem 0px #00000066;
+  border-radius: 1.5rem;
+  position: relative;
+  width: 100%;
+}
+.font_4 {
+  font-size: 1.5625rem;
+  font-family: "Helvetica";
+  letter-spacing: -0.00125rem;
+  line-height: 1.8125rem;
+  color: #ffffff;
+}
+.text_10 {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}
+.text-wrapper_3 {
+  padding: 1rem 0 0.9375rem;
+  background-color: #151515;
+  border-radius: 1.25rem;
+  border: solid 0.125rem #4e4e4e;
+}
+.button {
+  margin: 1.5625rem 0.25rem 0;
+  padding: 1.25rem 0 1.4375rem;
+  background-image: radial-gradient(ellipse 88.36% 372.77% at 95.36% 14.36%, #ffd840 0%, #f3acff 55.86%, #8aecff 100%);
+  border-radius: 1.375rem;
+}
+.text_11 {
+  margin-left: 1.625rem;
+  font-size: 1.5rem;
+}
+.text_12 {
+  color: #000000;
+  font-size: 1.125rem;
+  font-family: ".AppleSystemUIFont";
+  line-height: 1.3125rem;
+}
+.space-y-26 > uni-view:not(:first-child),
+.space-y-26 > uni-text:not(:first-child),
+.space-y-26 > uni-image:not(:first-child) {
+  margin-top: 1.625rem;
+}
+
+/* mask */
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search uni-image {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.search {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #212121;
+  border-radius: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow_right {
+  position: absolute;
+  right: 0.3125rem;
+  top: 1.25rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  color: #ffffff;
+}
+.page {
+  padding: 3.75rem 0.875rem 0 1.25rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.space-y-30 > uni-view:not(:first-child),
+.space-y-30 > uni-text:not(:first-child),
+.space-y-30 > uni-image:not(:first-child) {
+  margin-top: 0.9375rem;
+}
+.text {
+  margin-left: 1.25rem;
+  color: transparent;
+  font-size: 2.5rem;
+  font-family: "Helvetica";
+  line-height: 3rem;
+  letter-spacing: -0.00125rem;
+  -webkit-background-clip: text;
+}
+.space-y-27 > uni-view:not(:first-child),
+.space-y-27 > uni-text:not(:first-child),
+.space-y-27 > uni-image:not(:first-child) {
+  margin-top: 0.9375rem;
+}
+.section_2 {
+  margin-left: 0.375rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 2rem;
+}
+.font_1 {
+  border-radius: 1.5rem;
+  font-size: 1.125rem;
+  font-family: "Helvetica";
+  line-height: 1.375rem;
+  width: 9.96875rem;
+  height: 3rem;
+  padding: 0.75rem 0 0.875rem;
+  align-items: center;
+}
+.text_3 {
+  margin-right: 3.75rem;
+  align-self: center;
+}
+.section_3 {
+  margin-right: 0.375rem;
+  padding: 0.125rem 0 1.5625rem;
+  overflow-y: scroll;
+  /* border-radius: 48rpx 48rpx 0 0; */
+  border-radius: 1.5rem;
+  width: 100%;
+  height: 69vh;
+}
+.list {
+  margin: 0 0.78125rem;
+}
+.list-item {
+  padding: 1.25rem 0.625rem 1.1875rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: ".AppleSystemUIFont";
+  letter-spacing: -0.00063rem;
+  line-height: 1.125rem;
+}
+.text_4 {
+  align-self: center;
+}
+.image {
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 2.75rem;
+  height: 3rem;
+}
+.image_2 {
+  margin-left: 0.625rem;
+}
+.group_3 {
+  margin: 0.125rem 0 0.125rem 0.25rem;
+  flex: 1 1 auto;
+}
+.space-y-9 > uni-view:not(:first-child),
+.space-y-9 > uni-text:not(:first-child),
+.space-y-9 > uni-image:not(:first-child) {
+  margin-top: 0.5625rem;
+}
+.font_3 {
+  font-size: 1rem;
+  font-family: ".AppleSystemUIFont";
+  line-height: 1.125rem;
+}
+.font_4 {
+  font-size: 0.875rem;
+  font-family: ".AppleSystemUIFont";
+  letter-spacing: -0.00063rem;
+  line-height: 1.125rem;
+}
+.text_6 {
+  line-height: 1.0625rem;
+}
